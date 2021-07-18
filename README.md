@@ -5,6 +5,7 @@ The main objective of this robot is to sense if there is any human nearby the ta
 
 ## CODE
 The first arduino card (MASTER) is attached to ultra-sonic sensor and to second board and it is coded such that 1-Declaring all ports and variables. 2- initiating data transfer and set in/out ports. 3- in the loop void we first gonna trigger and read echo of the sensor and if anyone nearby then wait for a second then again trigger and read echo of the sensor and if anyone nearby then wait for a second and do the same thing for the third time then if there still someone nearby, send HIGH signal to board two and delay for 10 seconds. If else send LOW signal to board two and delay for 0.5 seconds.
+The reason behind this is to make sure that the same person is standing infront of the robot for three seconds to save more power and to be more accurate.
 
 For the second arduino card (SLAVE), it is connected with LED light and coded such that, 1- Declaring all ports and variables. 2-initiating data receiving and set in/out ports. 3- if the received signal is HIGH then, turn on LED light else turn off LED light.
 
