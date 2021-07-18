@@ -17,6 +17,6 @@ For the second arduino card (SLAVE), it is connected with LED light and coded su
 
 ## ATTACHMENTS
 
-Let me introduce all the attachments in this repository. There are several files with the following extensions: **ino** file, which is an Arduino code to control LED blinking. and there are **PNG** files to show the simulation before and after running the simulation.
+Let me introduce all the attachments in this repository. There are several files with the following extensions: **ino** file, which is an Arduino code to both first and second arduino cards and there are **PNG** files to show the simulation before and after running the simulation.
 
 If you are working on this in real life please check for the connection of each element carefully as shown in the simulation file of the pictures attached before running for the safety of your tools.
